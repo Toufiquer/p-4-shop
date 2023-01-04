@@ -1,0 +1,23 @@
+.product {
+  border: 2px solid rgb(167, 167, 167);
+  max-width: 300px;
+  margin: 9px;
+  position: relative;
+  min-height: 530px;
+}
+.product img {
+  width: 300px;
+}
+.product button {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  border: 0;
+  padding: 9px;
+  font-weight: 700;
+}
+.product button:hover {
+  cursor: pointer;
+  background-color: rgb(27, 255, 179);
+}
