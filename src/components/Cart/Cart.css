@@ -1,4 +1,12 @@
-.cart{
-    
+.cart {
   background-color: rgba(37, 225, 250, 0.783);
+  position: relative;
+}
+.cart .content {
+  position: sticky;
+  top: 10px;
+  border: 2px solid black;
+  margin: 9px;
+  min-height: 600px;
+  font-weight: 700;
 }

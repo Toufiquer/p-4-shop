@@ -1,13 +1,13 @@
 import React from "react";
 import Product from "../Product/Product";
 import "./Products.css";
-const Products = ({ products }) => {
+const Products = ({ products, addToCart }) => {
   let newProducts = [...products];
-  newProducts.length = 10;
+  newProducts.length = 30;
   return (
     <div className="products">
       {newProducts.map((product) => (
-        <Product key={product.id} product={product}></Product>
+        <Product addToCart={addToCart} key={product.id} product={product}></Product>
       ))}
     </div>
   );
